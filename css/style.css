@@ -1,0 +1,18 @@
+*{
+
+}
+
+:root {
+    /*CORES*/
+    --fundo: #221C1C;
+    --botao: #733EB7;
+    --degradê1: #431766; /*Essa tambem é a cor de fundo dos cards do depoimento!*/
+    --degrade2: #7844D2;/*Essa cor tambem sera usada como cor de fundo nos cards do case de sucesso!!*/
+    --degrade3: #7241C8;
+    --degradê4: #29144D;
+    /*Agora é o degradê serviço*/
+    --degradê-serviço1: #FFFFFF;
+    --degradê-serviço2:#B109FF;
+    --degradê-serviço3: #3F0073; /*Essa cor tambem sera usada como cor de fundo, na parte case de sucesso!!*/
+
+}
