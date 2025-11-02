@@ -5,6 +5,8 @@
     @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac+Western:wght@100..900&display=swap');
 
+
+
     /*Seletor Geral*/
 *{
     margin: 0;
@@ -35,16 +37,19 @@
     --botão-fonte: "Noto Sans Syriac Western", sans-serif;
 }
 
+
 /*BODY*/
 body  {
     background-color: var(--fundo);
 }
 
+
 /*HEADER PARTE DO CABEÇALHO, LOGO LINKS ETC*/
 header {
     width: 100%;
-    padding: 10px 6%;
+    padding: 10px 7%;
 }
+
 
 /*HEADER NAV*/
 header nav {
@@ -53,11 +58,13 @@ header nav {
     justify-content: space-evenly;
 }
 
+
 /*HEADER NAV IMG*/
 header nav img {
     width: 100px;
     height: 100px;
 }
+
 
 /*PARTE DOS LINKS UL*/
 header nav ul {
@@ -65,10 +72,12 @@ header nav ul {
     list-style: none;
 }
 
+
 /*PARTE DOS LINKS LI*/
 header nav ul li {
     margin: 10px;
 }
+
 
 /*PARTE DOS LINKS (A)*/
 header nav ul li > a {
@@ -78,11 +87,13 @@ header nav ul li > a {
     transition: .3s;
 }
 
+
 /*PARTE DOS LINKS (A) HOVER*/
 header nav ul li > a:hover {
     color: rgb(144, 144, 144);
     text-decoration: underline;
 }
+
 
 /*PARTE DO BOTÃO CONTATO*/
 header nav > a {
@@ -96,11 +107,13 @@ header nav > a {
     transition: .3s;
 }
 
+
 /*PARTE DO BOTÃO CONTATO HOVER*/
 header nav > a:hover {
     color: grey;
     background-color: #421c75;
 }
+
 
 /*MENU HAMBURGUER*/
 header nav #burguer-menu {
@@ -109,22 +122,26 @@ header nav #burguer-menu {
     display: none;
 }
 
+
 /*PARTE DO MENU MOBILE*/
 header #menu-Mobile {
     display: flex;
     align-items: end;
     flex-direction: column;
 }
+
 /*MENU MOBILE (UL)*/
 header #menu-Mobile ul {
     display: none;
     list-style: none;
 }
 
+
 /*MENU MOBILE (LI)*/
 header #menu-Mobile ul > li {
     padding: 20px;
 }
+
 
 /*MENU MOBILE (A)*/
 header #menu-Mobile ul > li > a {
@@ -132,6 +149,7 @@ header #menu-Mobile ul > li > a {
     font-family: var(--menu);
     text-decoration: none;
 }
+
 
 /*MENU MOBILE (BOTÃO)*/
 header #menu-Mobile > ul > li .btn-contato {
@@ -143,7 +161,8 @@ header #menu-Mobile > ul > li .btn-contato {
     font-weight: 600;
     font-family: var(--botão-fonte);
     transition: .3s;
-}
+} 
+
 
 /*MENU MOBILE (BOTÃO) HOVER*/
 header #menu-Mobile > ul > li .btn-contato:hover {
@@ -151,4 +170,7 @@ header #menu-Mobile > ul > li .btn-contato:hover {
     background-color: #421c75;
 }
 
-
+/*PARTE DO MAIN, (CORPO)*/
+main {
+    padding: 0px 7%;
+}
