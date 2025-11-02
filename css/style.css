@@ -102,13 +102,36 @@ header nav > a:hover {
     background-color: #421c75;
 }
 
+/*MENU HAMBURGUER*/
+header nav #burguer-menu {
+    cursor: pointer;
+    color: white;
+    display: none;
+}
+
 /*PARTE DO MENU MOBILE*/
 header #menu-Mobile {
     display: flex;
     align-items: end;
     flex-direction: column;
 }
-
-header #menu-Mobile {
+/*MENU MOBILE (UL)*/
+header #menu-Mobile ul {
     display: none;
+    list-style: none;
 }
+
+/*MENU MOBILE (LI)*/
+header #menu-Mobile ul > li {
+    padding: 20px;
+}
+
+/*MENU MOBILE (A)*/
+header #menu-Mobile ul > li > a {
+    color: white;
+    font-family: var(--menu);
+    text-decoration: none;
+}
+
+/*MENU MOBILE (BOTÃO)*/
+
