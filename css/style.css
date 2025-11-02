@@ -231,20 +231,79 @@ main .primeiro-conteudo .img > img {
 
 /*PARTE SOBRE A EMPRESA*/
 main .sobre {
-    height: 100vh;
-    background-image: url(../img/foto-consultoria.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-   /* background-attachment: fixed; */
+    background-color: white;
 }
 
+/*PARTE DO TEXTO SOBRE A EMPRESA*/
 main .sobre #container-txt {
-    max-width: 500px;
-    height: 100%;
+    padding: 20px;
+   
+}
+/*PARTE SOBRE A EMPRESA H1*/
+main .sobre #container-txt > h1 {
+    text-align: center;
+    padding: 15px;
+    font-family: var(--h1);
+    color: rgb(0, 0, 0);
+}
+
+
+/*PARTE SOBRE A EMPRESA PARAGRAFO*/
+main .sobre #container-txt > p {
+    line-height: 35px;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    font-family: var(--paragrafo);
+    margin: 15px;
+}
+
+/*SPANS*/
+main .sobre #container-txt > p > span {
+    color: blue;
+}
+
+
+/*PARTE DOS SERVIÇOS*/
+main .servicos {
+    padding: 30px;
+    background-image: linear-gradient(25deg, #a84ad7, #3F0073, #B109FF);
+} 
+
+/*SERVIÇOS (H1)*/
+main .servicos h1 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: var(--h1);
+}
+
+/*PARTE DO CONTAINER*/
+main .servicos .container {
+    width: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    background-color: #3F0073;
-    margin: auto;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+/*PARTE DAS DIVS DOS (CARDS)*/
+main .servicos .container .container-servicos {
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    transition: .3s;
+}
+
+/*PARTE DO HOBVER DOS (CARDS)*/
+main .servicos .container .container-servicos:hover {
+     padding: 30px;
+}
+
+/*PARTE DO H2*/
+main .servicos .container .container-servicos h2 {
+    padding: 10px;
+    font-family: var(--h2);
 }
