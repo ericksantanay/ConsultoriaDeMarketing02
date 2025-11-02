@@ -47,7 +47,7 @@ body  {
 /*HEADER PARTE DO CABEÇALHO, LOGO LINKS ETC*/
 header {
     width: 100%;
-    padding: 10px 7%;
+    padding: 5px 7%;
 }
 
 
@@ -289,7 +289,7 @@ main .servicos .container {
 
 /*PARTE DAS DIVS DOS (CARDS)*/
 main .servicos .container .container-servicos {
-    max-width: 350px;
+    max-width: 360px;
     max-height: 460px;
     padding: 20px;
     border-radius: 10px;
