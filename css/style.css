@@ -290,20 +290,41 @@ main .servicos .container {
 /*PARTE DAS DIVS DOS (CARDS)*/
 main .servicos .container .container-servicos {
     max-width: 350px;
+    max-height: 460px;
     padding: 20px;
     border-radius: 10px;
     background-color: white;
     text-align: center;
-    transition: .3s;
-}
-
-/*PARTE DO HOBVER DOS (CARDS)*/
-main .servicos .container .container-servicos:hover {
-     padding: 30px;
 }
 
 /*PARTE DO H2*/
 main .servicos .container .container-servicos h2 {
     padding: 10px;
     font-family: var(--h2);
+}
+
+/*PARTE DO PARAGRAFO*/
+main .servicos .container .container-servicos p {
+    font-size: 20px;
+    font-family: var(--paragrafo);
+    margin-bottom: 40px;
+}
+
+/*PARTE DO BOTÃO SAIBA MAIS*/
+main .servicos .container .container-servicos > a {
+    background-color: #47207b;
+    color: rgba(235, 235, 235, 0.87);
+    padding: 13px;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--botão-fonte);
+    font-weight: 600;
+    transition: .3s;
+}
+
+/*BOTÃO SAIBA MAIS HOVER*/
+main .servicos .container .container-servicos > a:hover {
+    background-color: #9335e1;
+    color: rgb(255, 255, 255);
 }
