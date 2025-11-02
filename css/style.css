@@ -134,4 +134,21 @@ header #menu-Mobile ul > li > a {
 }
 
 /*MENU MOBILE (BOTÃO)*/
+header #menu-Mobile > ul > li .btn-contato {
+    color: white;
+    background-color: var(--botao);
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 21px;
+    font-weight: 600;
+    font-family: var(--botão-fonte);
+    transition: .3s;
+}
+
+/*MENU MOBILE (BOTÃO) HOVER*/
+header #menu-Mobile > ul > li .btn-contato:hover {
+    color: grey;
+    background-color: #421c75;
+}
+
 
