@@ -18,7 +18,7 @@
     /*ROOT COM FONTES E CORES*/
 :root {
     /*CORES*/
-    --fundo: #221C1C;
+    --fundo: #040b21;
     --botao: #733EB7;
     --degradê1: #431766; /*Essa tambem é a cor de fundo dos cards do depoimento!*/
     --degrade2: #7844D2;/*Essa cor tambem sera usada como cor de fundo nos cards do case de sucesso!!*/
@@ -173,4 +173,16 @@ header #menu-Mobile > ul > li .btn-contato:hover {
 /*PARTE DO MAIN, (CORPO)*/
 main {
     padding: 0px 7%;
+}
+
+
+/*PRIMEIRO SECTION*/   
+main .primeiro-conteudo {
+    background-image: linear-gradient(to right,  #7844D2, #7241C8, #431766, #29144D);
+    display: flex;
+} 
+
+main .primeiro-conteudo .container-txt-botao {
+    width: 50%;
+    line-height: 30px;
 }
