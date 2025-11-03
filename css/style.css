@@ -345,5 +345,11 @@ main .container-depoimentos > article {
 
 /*DEPOIMENTOS H1*/
 main .container-depoimentos > article h1 {
+    font-family: var(--h1);
+    padding: 5%;
+}
+
+/*PARTE DOS CARDS DO DEPOIMENTO*/
+main .container-depoimentos > article .depoimentos {
     
 }
