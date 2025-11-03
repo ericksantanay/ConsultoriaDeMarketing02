@@ -362,6 +362,13 @@ main .container-depoimentos > article > .depoimentos {
     background-color: var(--degradê1);
     margin: 20px;
     text-align: center;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+/*PARTE DOS CARDS DO DEPOIMENTO HOVER*/
+main .container-depoimentos > article > .depoimentos:hover {
+    padding: 30px;
 }
 
 /*DEPOIMENTO IMG*/
