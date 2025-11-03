@@ -396,3 +396,22 @@ main .container-depoimentos > article > .depoimentos > p {
     color: white;
     font-family: var(--paragrafo-do-depoimento);
 }
+
+
+/* PARTE DO ENDEREÇO CONTAINER */
+main .container-endereco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--degradê-serviço3);
+}
+
+/*ENDEREÇO ARTICLE*/
+main .container-endereco  article {
+    padding: 40px;
+}
+
+/*ENDEREÇO PARTE DO H1*/
+main .container-endereco  article h1 {
+    
+}
