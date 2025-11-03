@@ -334,20 +334,23 @@ main .container-depoimentos {
     background-color: #D9D9D9;
 }
 
+/*DEPOIMENTOS H1*/
+main .container-depoimentos > h1 {
+    font-family: var(--h1);
+    padding: 5%;
+    text-align: center;
+}
+
 
 /*DEPOIMENTOS ARTICLE*/
 main .container-depoimentos > article {
     display: flex;
+    height: 100vh;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-/*DEPOIMENTOS H1*/
-main .container-depoimentos > article h1 {
-    font-family: var(--h1);
-    padding: 5%;
-}
 
 /*PARTE DOS CARDS DO DEPOIMENTO*/
 main .container-depoimentos > article > .depoimentos {
