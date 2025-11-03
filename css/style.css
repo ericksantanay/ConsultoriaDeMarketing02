@@ -331,6 +331,19 @@ main .servicos .container .container-servicos > a:hover {
 
 /*DEPOIMENTOS*/
 main .container-depoimentos {
-    display: flex;
     background-color: #D9D9D9;
+}
+
+
+/*DEPOIMENTOS ARTICLE*/
+main .container-depoimentos > article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*DEPOIMENTOS H1*/
+main .container-depoimentos > article h1 {
+    
 }
