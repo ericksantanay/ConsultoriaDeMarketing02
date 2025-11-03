@@ -409,9 +409,27 @@ main .container-endereco {
 /*ENDEREÇO ARTICLE*/
 main .container-endereco  article {
     padding: 40px;
+    color: white;
 }
 
 /*ENDEREÇO PARTE DO H1*/
 main .container-endereco  article h1 {
-    
+    font-family: var(--h1);
+    padding: 30px;
+    text-align: center;
 }
+
+/*ENDEREÇO PARTE DA IMAGEM*/
+main .container-endereco  article h1 > span {
+    color: white;
+    animation: .3s ease-in-out infinite;
+}
+
+/*ENDEREÇO PARTE DO IFRAME*/
+main .container-endereco  article iframe {
+    width: 90vw;
+    height: 90vh;
+    border-radius: 10px;
+}
+
+/*PARTE DO FOOTER*/
