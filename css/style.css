@@ -480,15 +480,14 @@ footer > p {
 
     /*PRIMEIRO CONTEUDO*/
     main .primeiro-conteudo {
-        display: block;
-    }
+    background-image: linear-gradient(to right,  #7844D2, #7241C8, #431766, #29144D);
+} 
 
     /*PRIMEIRO CONTEUDO PARTE DO TEXTO*/
    main .primeiro-conteudo .container-txt-botao > p {
     color: white;
     font-family: var(--paragrafo);
     font-size: 1.5rem;
-    
     }
 
      /*PARTE DO BOTÃO*/
@@ -500,12 +499,10 @@ footer > p {
     font-weight: 600;
     text-decoration: none;
     font-family: var(--botão-fonte);
-    transition: .3s;
-    margin: 10px;
      }
 
      /*PARTE DA IMAGEM*/
-      main .primeiro-conteudo > .img > img {
+      main .primeiro-conteudo > .img  {
        display: none;
       }
 
