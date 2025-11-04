@@ -463,5 +463,18 @@ footer > p {
 
 /*MEDIA QUERY VERSÃO PARA CELULAR E TELAS MENORES*/
  @media screen and (max-width: 798px){
-    
+    /*HEADER NAV*/
+    header nav ul {
+        display: none;
+    }
+
+    /*HEADER NAV BOTÃO*/
+    header nav a {
+        display: none;
+    }
+
+    /*MENU HAMBURGUER*/
+    header nav #burguer-menu {
+        display: block;
+    }
  }
