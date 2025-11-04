@@ -1,6 +1,11 @@
 
-    if (burguer-menu.style.display == "block") {
-        burguer-menu.style.display = "none"
+    function ClickMenu() {
+
+    if (itens.style.display == 'block') {
+       itens.style.display = 'none'
     }else {
-        burguer-menu.style.display = "block"
+       itens.style.display = 'block'
     }
+}
+
+    

@@ -124,27 +124,27 @@ header nav #burguer-menu {
 
 
 /*PARTE DO MENU MOBILE*/
-header #menu-Mobile {
+header #itens {
     display: flex;
     align-items: end;
     flex-direction: column;
+     display: none;
 }
 
 /*MENU MOBILE (UL)*/
-header #menu-Mobile ul {
-    display: none;
+header #itens ul {
     list-style: none;
 }
 
 
 /*MENU MOBILE (LI)*/
-header #menu-Mobile ul > li {
+header #itens ul > li {
     padding: 20px;
 }
 
 
 /*MENU MOBILE (A)*/
-header #menu-Mobile ul > li > a {
+header #itens ul > li > a {
     color: white;
     font-family: var(--menu);
     text-decoration: none;
@@ -152,7 +152,7 @@ header #menu-Mobile ul > li > a {
 
 
 /*MENU MOBILE (BOTÃO)*/
-header #menu-Mobile > ul > li .btn-contato {
+header #itens > ul > li .btn-contato {
     color: white;
     background-color: var(--botao);
     text-decoration: none;
@@ -165,7 +165,7 @@ header #menu-Mobile > ul > li .btn-contato {
 
 
 /*MENU MOBILE (BOTÃO) HOVER*/
-header #menu-Mobile > ul > li .btn-contato:hover {
+header #itens > ul > li .btn-contato:hover {
     color: grey;
     background-color: #421c75;
 }
@@ -477,4 +477,5 @@ footer > p {
     header nav #burguer-menu {
         display: block;
     }
+
  }
