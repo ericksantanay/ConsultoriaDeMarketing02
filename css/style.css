@@ -480,12 +480,11 @@ footer > p {
 
     /*PRIMEIRO CONTEUDO*/
     main .primeiro-conteudo {
-        padding: 10px;
+        display: block;
     }
 
     /*PRIMEIRO CONTEUDO PARTE DO TEXTO*/
    main .primeiro-conteudo .container-txt-botao > p {
-    
     color: white;
     font-family: var(--paragrafo);
     font-size: 1.5rem;
