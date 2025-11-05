@@ -131,6 +131,7 @@ header #itens {
     display: none;
 }
 
+
 /*MENU MOBILE (UL)*/
 header #itens ul {
     list-style: none;
@@ -170,6 +171,7 @@ header #itens > ul > li .btn-contato:hover {
     background-color: #421c75;
 }
 
+
 /*PARTE DO MAIN, (CORPO)*/
 main {
     padding: 0;
@@ -181,12 +183,14 @@ main .primeiro-conteudo {
     background-image: linear-gradient(to right,  #7844D2, #7241C8, #431766, #29144D);
     display: flex;
     padding: 20px;
-} 
+}
+
 
 /*PARTE DA BREVE INTRODUÇÃO DO TEXTO*/
 main .primeiro-conteudo .container-txt-botao {
     width: 50%;
 }
+
 
 /*TEXTO*/
 main .primeiro-conteudo .container-txt-botao > p {
@@ -196,6 +200,7 @@ main .primeiro-conteudo .container-txt-botao > p {
     font-size: 1.5rem;
     margin: 60px 60px;
 }
+
 
 /*PARTE DO BOTÃO */
 main .primeiro-conteudo .container-txt-botao > a {
@@ -209,6 +214,7 @@ main .primeiro-conteudo .container-txt-botao > a {
     transition: .3s;
     margin: 25%;
 }
+
 
 /*PARTE DO BOTÃO HOVER*/
 main .primeiro-conteudo .container-txt-botao > a:hover {
@@ -224,21 +230,26 @@ main .primeiro-conteudo .img {
     padding: 10px;
 }
 
+
 /*IMAGEM*/
 main .primeiro-conteudo .img > img {
     height: 550px;
 }
+
 
 /*PARTE SOBRE A EMPRESA*/
 main .sobre {
     background-color: white;
 }
 
+
 /*PARTE DO TEXTO SOBRE A EMPRESA*/
 main .sobre #container-txt {
     padding: 20px;
-   
+  
 }
+
+
 /*PARTE SOBRE A EMPRESA H1*/
 main .sobre #container-txt > h1 {
     text-align: center;
@@ -256,6 +267,7 @@ main .sobre #container-txt > p {
     font-family: var(--paragrafo);
     margin: 15px;
 }
+
 
 /*SPANS*/
 main .sobre #container-txt > p > span {
@@ -295,6 +307,7 @@ main .servicos .container .container-servicos {
     border-radius: 10px;
     background-color: white;
     text-align: center;
+    animation:  subir 0.8s ease forwards;
 }
 
 /*PARTE DO H2*/
@@ -318,9 +331,9 @@ main .servicos .container .container-servicos > a {
     border-radius: 25px;
     text-decoration: none;
     text-align: center;
+    transition: .3s;
     font-family: var(--botão-fonte);
     font-weight: 600;
-    transition: .3s;
 }
 
 /*BOTÃO SAIBA MAIS HOVER*/
@@ -364,6 +377,7 @@ main .container-depoimentos > article > .depoimentos {
     text-align: center;
     transition: .3s ease-in-out;
     cursor: pointer;
+    animation:  subir 0.8s ease forwards;
 }
 
 /*PARTE DOS CARDS DO DEPOIMENTO HOVER*/
@@ -422,7 +436,7 @@ main .container-endereco  article h1 {
 /*ENDEREÇO PARTE DA IMAGEM*/
 main .container-endereco  article h1 > span {
     color: white;
-    animation: .3s ease-in-out infinite;
+    animation: pulsar 1.5s infinite ;
 }
 
 /*ENDEREÇO PARTE DO IFRAME*/
@@ -519,6 +533,12 @@ footer > p {
     display: none;
     }
 
+    /*ENDEREÇO ARTICLE*/
+    main .container-endereco  article {
+    padding: 10px;
+    color: white;
+    }
+
     /*ENDEREÇO PARTE DO IFRAME*/
     main .container-endereco  article iframe {
     width: 96vw;
@@ -531,3 +551,37 @@ footer > p {
     
     }
  }
+
+
+ /*KEY FRAMES*/
+ @keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+    }
+
+    /*SELECIONADOS PARA TER A ANIMAÇÃO*/
+    section, header, footer, main {
+  animation: aparecer 0.8s ease forwards;
+}
+
+
+/*PARTE DE KEY FRAMES DO ICONE*/
+@keyframes pulsar {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.7; }
+}
+
+
+/*PARTE DOS CARDS*/
+@keyframes subir {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
