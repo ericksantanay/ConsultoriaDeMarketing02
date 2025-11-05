@@ -180,7 +180,7 @@ main {
 main .primeiro-conteudo {
     background-image: linear-gradient(to right,  #7844D2, #7241C8, #431766, #29144D);
     display: flex;
-     padding: 20px;
+    padding: 20px;
 } 
 
 /*PARTE DA BREVE INTRODUÇÃO DO TEXTO*/
@@ -483,6 +483,12 @@ footer > p {
     background-image: linear-gradient(to right,  #7844D2, #7241C8, #431766, #29144D);
 } 
 
+
+    /*PRIMEIRO CONTEUDO CONTAINER DO TEXTO*/
+     main .primeiro-conteudo .container-txt-botao {
+    width: 100%;
+    }
+
     /*PRIMEIRO CONTEUDO PARTE DO TEXTO*/
    main .primeiro-conteudo .container-txt-botao > p {
     color: white;
@@ -504,6 +510,7 @@ footer > p {
      /*PARTE DA IMAGEM*/
       main .primeiro-conteudo > .img  {
        display: none;
+       width: 0%;
       }
 
 
