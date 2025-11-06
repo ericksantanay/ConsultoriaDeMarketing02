@@ -494,8 +494,9 @@ footer > p {
 /*MEDIA QUERY VERSÃO PARA CELULAR E TELAS MENORES*/
  @media screen and (max-width: 798px){
 
+    
     header {
-        padding: 10px 0%;
+        padding: 5px 0%;
     }
 
     /*HEADER NAV*/
