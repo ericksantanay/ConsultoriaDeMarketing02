@@ -325,22 +325,24 @@ main .servicos .container .container-servicos p {
 
 /*PARTE DO BOTÃO SAIBA MAIS*/
 main .servicos .container .container-servicos > a {
-    background-color: #47207b;
-    color: rgba(235, 235, 235, 0.87);
-    padding: 13px;
-    border-radius: 25px;
+    background: linear-gradient(90deg, #7b2ff7, #f107a3);
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 8px;
     text-decoration: none;
-    text-align: center;
-    transition: .3s;
-    font-family: var(--botão-fonte);
     font-weight: 600;
+    transition: 0.3s;
+    font-family: var(--botão-fonte);
 }
+
+
 
 /*BOTÃO SAIBA MAIS HOVER*/
 main .servicos .container .container-servicos > a:hover {
-    background-color: #9335e1;
-    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(241, 7, 163, 0.5);
 }
+
 
 /*DEPOIMENTOS*/
 main .container-depoimentos {
@@ -348,6 +350,7 @@ main .container-depoimentos {
     padding: 10px;
     height: auto;
 }
+
 
 /*DEPOIMENTOS H1*/
 main .container-depoimentos > h1 {
@@ -380,10 +383,12 @@ main .container-depoimentos > article > .depoimentos {
     animation:  subir 0.8s ease forwards;
 }
 
+
 /*PARTE DOS CARDS DO DEPOIMENTO HOVER*/
 main .container-depoimentos > article > .depoimentos:hover {
     padding: 30px;
 }
+
 
 /*DEPOIMENTO IMG*/
 main .container-depoimentos > article > .depoimentos > img {
@@ -391,17 +396,18 @@ main .container-depoimentos > article > .depoimentos > img {
     border-radius: 50%;
 }
 
+
 /*PARTE DOS SPANS*/     
 main .container-depoimentos > article > .depoimentos > span {
     color: rgb(203, 203, 0);
 }
 
+
 /*PARTE DO H3*/
 main .container-depoimentos > article > .depoimentos > h3 {
     color: white;
     font-family: var(--h2);
-    padding: 20px;
-    
+    padding: 20px;  
 }
 
 
@@ -420,11 +426,13 @@ main .container-endereco {
     background-color: var(--degradê-serviço3);
 }
 
+
 /*ENDEREÇO ARTICLE*/
 main .container-endereco  article {
     padding: 40px;
     color: white;
 }
+
 
 /*ENDEREÇO PARTE DO H1*/
 main .container-endereco  article h1 {
@@ -433,11 +441,13 @@ main .container-endereco  article h1 {
     text-align: center;
 }
 
+
 /*ENDEREÇO PARTE DA IMAGEM*/
 main .container-endereco  article h1 > span {
     color: white;
     animation: pulsar 1.5s infinite ;
 }
+
 
 /*ENDEREÇO PARTE DO IFRAME*/
 main .container-endereco  article iframe {
@@ -446,6 +456,7 @@ main .container-endereco  article iframe {
     border-radius: 10px;
 }
 
+
 /*PARTE DO FOOTER*/
 footer {
     text-align: center;
@@ -453,10 +464,12 @@ footer {
     padding: 100px;
 }
 
+
 /*FOOTER CONTAINER*/
 footer .icones {
     margin: 50px;
 }
+
 
 /*FOOTER H1*/
 footer .icones h2 {
@@ -464,16 +477,19 @@ footer .icones h2 {
     padding: 10px;
 }
 
+
 /*FOOTER IMG*/
 footer .icones > a > img {
     padding: 10px;
     
 }
 
+
 /*FOOTER PARAGRAFO*/
 footer > p {
     font-family: var(--paragrafo);
 }
+
 
 /*MEDIA QUERY VERSÃO PARA CELULAR E TELAS MENORES*/
  @media screen and (max-width: 798px){
